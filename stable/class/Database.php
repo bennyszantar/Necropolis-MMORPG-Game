@@ -8,7 +8,7 @@ class Database {
     public function connect(){
         try{
             //1
-         $this->_pdo = new PDO('mysql:host=localhost;dbname=necropolis;', 'root', '');
+         $this->_pdo = new PDO('mysql:host=db01-share;dbname=necropolis_phpfogapp_com;', 'Custom App-25221', 'beniamins9');
        // $this->_pdo = new PDO('mysql:host=mysql2.000webhost.com;dbname=a3829872_sfc;', 'a3829872_admin', 'beniamins9');
 
     
